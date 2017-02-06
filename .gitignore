@@ -35,3 +35,34 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# Others
+.project
+.idea/
+.*.swp
+.*.swo
+._*
+.DS_Store
+*.orig
+*.aps
+*.APS
+*.chm
+*.exp
+*.pdb
+*.rar
+*.mo
+*.po
+*.pot
+.smbdelete*
+*.sublime*
+.sass-cache
+/config.json
+config.json
+/config.yml
+config.yml
+/data
+node_modules/*
+node_modules
+coverage
+*.log
+bin/start.sh

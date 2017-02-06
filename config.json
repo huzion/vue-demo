@@ -1,0 +1,15 @@
+{
+    "path":{
+        "src": "src",
+        "debug": "./views",
+        "dist": "./views"
+    },
+    "statics":{
+        "local":"local.nanjing-wall.com",
+        "test":"",
+        "www":"nanjing-wall"
+    },
+    "appJsPath":"app",
+    "htmlViews": "./views",
+    "mapPath": "./dist/map"
+}
