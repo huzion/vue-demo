@@ -1,53 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-@@include('./_common/header.html',{"title": "首页"})
+@@include("./_common/header.html", {"title": "首页"})
 <%-init_css('index.css')%>
 </head>
 <body>
-    <div class="container">
-        <div class="title"></div>
-        <div class="ar">
-            <h2>邀好友 抢AR红包</h2>
-            <div class="text">活动时间：1月26日-2月6日</div>
-        </div>
-        <div class="wall-container">
-            <div class="wrap">
-                <div class="online-event"></div>
-                <div class="offline-event"></div>
-                <div class="text-content">
-                    <p>为助力城墙申遗、弘扬春联文化，涛略集团携手南京城墙保护管理中心， 发起
-                        <strong>春联红包大拜年活动</strong>，在活动期间，用户可通过线上、线下方式，抢AR红包。</p>
-                </div>
-                <div class="text-content" style="margin-top: 1.3rem;">
-                    <p>1.使用手机支付宝AR，扫页面下方logo，即可获红包；</p>
-                    <p>2.分享至好友或朋友圈，打开分享链接，扫描不同logo获取更多红包。</p>
-                </div>
-                <div class="text-content" style="margin-top: 1.6rem;">
-                    <p>前往南京12大城门，打开手机支付宝AR，扫春联海报logo就可抢红包！</p>
-                </div>
-            </div>
-        </div>
-        <div class="bottom">
-            <div class="qrcode">
-                <p></p>
-                <span>车·生活 一站式管家</span>
-            </div>
-            <div class="logo-box">
-                <p id="logo"></p>
-                <span>扫LOGO抢红包</span>
-            </div>
-            <div class="text">
-                <ul>
-                    <li><span>荣誉冠名：</span><p>涛略集团</p></li>
-                    <li><span>活动主办：</span><p>南京城墙研究会 南京城墙基金会<br>南京城墙保护管理中心</p></li>
-                    <li><span>活动承办：</span><p>江苏博露爱体育文化发展有限公司</p></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-@@include('./_common/footer.html')
-<%-init_js('index.js')%>
+<div id="main"></div>
+<div id="app"> {{ message }}</div>
+@@include("./_common/footer.html")
+<%-init_js('core.js,index.js')%>
 </body>
 </html>

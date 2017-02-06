@@ -5,9 +5,9 @@
         "dist": "./views"
     },
     "statics":{
-        "local":"local.nanjing-wall.com",
+        "local":"local.vue-demo.com",
         "test":"",
-        "www":"nanjing-wall"
+        "www":"vue-demo.com"
     },
     "appJsPath":"app",
     "htmlViews": "./views",
